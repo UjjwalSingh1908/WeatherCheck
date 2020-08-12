@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+	height:100%;
+	font-family: 'Verdana';
+	background: url("weather.jpg") no-repeat center;
+        background-size: 1900px 1430px;
+	
+}
+.panel-heading{
+    background-color: #000000;
+    color:#ffffff;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>WeatherCheck</title>
+</head>
+<body>
+    
+     <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                      <a href="#" class="navbar-brand">WeatherCheck</a>
+                </div>
+                
+            </div>
+      </nav>
+ 
+           <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-8">
+                  <div class="panel">
+                      <div class="panel-heading"> <h1>Welcome to WeatherCheck</h1> </div>
+      
+        <form id="city-form">
+            <div class="panel-body">
+          <div class="form-group">
+            <label for="city">Enter your city here</label>
+            <input type="text" id="city" class="form-control" required>
+          </div>
+            </div>
+            <div class="panel-footer">
+          <button class="btn btn-success" type="submit">Check the weather!</button>
+            
+       
+      <div class="row">
+        <p id="weather-report" class="col-sm-8 offset-sm-2 text-center">
+        </p>
+      </div>
+</div>
+        </form>
+    </main>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
